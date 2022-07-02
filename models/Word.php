@@ -1,0 +1,17 @@
+<?php session_start();
+$word = new COM("word.application") or die("Unable to instantiate Word");
+$word->Visible = 0;
+$word->Documents->Add();
+$txt = "Pavle Djurdjic";
+$txt1 = "This is pretty much the last time I'll ever write any code without the use of Framework/Library(especially Front-end). This bloody JS probably killed around 100 000 of my nerve cells, and holmes, I ain't going through that hell again. Next time we meet, you'll be seeing a lot of node modules (Angular app). Oh yeah my name is Pavle...blah...web...blah...dev...and that kind of stuff. Much word, many {{ string interpolation }}";
+$txt2 = "Hasta luego, gracias por nada. Kibonga 7/19";
+$result = $txt . "\n\n\n" . $txt1 . "\n\n\n" . $txt2;
+$word->Selection->TypeText($result);
+$filename = tempnam(sys_get_temp_dir(), "word");
+$word->Documents[1]->SaveAs($filename);
+$word->Quit();
+$word = null;
+header("Content-type: application/vnd.ms-word");
+header("Content-Disposition: attachment;Filename=Kibonga.doc");
+readfile($filename);
+unlink($filename);
