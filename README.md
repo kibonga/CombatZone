@@ -47,12 +47,6 @@
 ## Usage
 
 <p>Website is live and hosted, fell free to check it out</p>
-<p><a href="https://github.com/kibonga/MShirts/blob/9e6a11dce157cdcfd8f349fb2de436bceb110356/mshirts_login_credentials.txt" alt="link_combatzone_login_credentials">Login credentials</a></p>
-
-
-## Usage
-
-<p>Website is live and hosted, fell free to check it out</p>
 <p><a href="https://github.com/kibonga/CombatZone/blob/eadc4bda1f9d4a07de57e8d862f0c6eece550fca/combatZone_login_credentials.txt">Login credentials</a></p>
 
 <!-- CONTACT -->
