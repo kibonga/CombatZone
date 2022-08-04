@@ -22,6 +22,7 @@
       <a href="#about-the-project">About The Project</a>
     </li>
     <li><a href="#built-with">Built with</a></li>
+    <li><a href="#usage">Usage</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -32,15 +33,27 @@
 ## About The Project
 <p>Second Server side project made using PHP and MySQL with design pattern that resembles of MVC.</p>
 <p>CombatZone is an E-commerce webshop that specializes in selling gear for combar sports.</p>
-<p>It implements Repository pattern.</p>
-<p>This project follows REST standards and uses Swagger and NSwag for API Integration</p>
-<p>Security is implemented using JWT Authentication</p>
+<p>It doesn't necessarily implement MVC, but it works in a similar way.</p>
+<p>Parts of website use AJAX calls to fetch data from server.</p>
+<p>Security is implemented using Session on server side.</p>
 
 ### Built With
 
-* ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
-* ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Sever-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
+* ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+* ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+* ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+* ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
+## Usage
+
+<p>Website is live and hosted, fell free to check it out</p>
+<p><a href="https://github.com/kibonga/MShirts/blob/9e6a11dce157cdcfd8f349fb2de436bceb110356/mshirts_login_credentials.txt" alt="link_combatzone_login_credentials">Login credentials</a></p>
+
+
+## Usage
+
+<p>Website is live and hosted, fell free to check it out</p>
+<p><a href="https://github.com/kibonga/CombatZone/blob/eadc4bda1f9d4a07de57e8d862f0c6eece550fca/combatZone_login_credentials.txt">Login credentials</a></p>
 
 <!-- CONTACT -->
 ## Contact
